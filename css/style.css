@@ -1,0 +1,413 @@
+body{
+    background-color:#4d5656;
+}
+h1{
+    color: #F0F36F;    
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+}
+  
+.botonGrande{
+    border-radius: 10px;
+    background-color :   rgb(114, 191, 165);
+    color: azure;
+    font-style:normal;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.botonRojo{
+    border-radius: 10px;
+    background-color :  rgb(188, 72, 72);
+    color: azure;
+    font-style:normal;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.botonVerdeNormal{
+    border-radius: 10px;
+    background-color :  rgb(31, 171, 124);
+    color: azure;
+    font-style:normal;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.botonRojoNormal{
+    border-radius: 10px;
+    background-color :  rgb(188, 72, 72);
+    color: azure;
+    font-style:normal;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+h2{
+    color:rgb(217, 171, 19);
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+h5{
+    color:rgb(3, 58, 29);
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+
+.fondo {
+    display: flex;
+    flex-direction: column;
+    background-size:cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../Img/Fondo.jpeg);
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 0 5px 10px #fbfcfd(71, 3, 6, 0.7);
+}
+.formLogin{
+    background-color: rgba(80, 245, 225, 0.82);
+    border: 5px solid #8492A6;
+        border-radius: 39px;
+        width: 380px;
+        height: 300px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+}
+
+
+h4{
+    color:rgb(235, 244, 244);
+    font-style:normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textoIzquierda{
+    text-align: left;
+    padding-left: 100px;
+    
+}
+
+.botonAcceder{
+    background-color:#333333;
+    color: white;
+    padding: 5px 10px;
+    
+}
+#botonesInicio{
+    border-radius: 30px;     
+    padding: 10px 15px;
+    cursor: pointer;
+    
+}
+
+h3{
+    color:rgb(235, 244, 244);
+    font-style:normal;
+    font-size: 20px;
+    text-align: none;
+    
+}   
+
+.fondocliente{
+    background-color: rgb(132, 132, 132);;
+
+}
+
+.cliente2{
+    background-color: rgb(150, 213, 192);
+        border-radius: 30px;
+        width: 600px;
+        height: 300px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+		text-align: center;
+        margin: 50px;
+}
+
+.fondoequipo{
+    background-color:  rgb(132, 132, 132);
+
+}
+
+.equipo1{
+    background-color: rgb(150, 213, 192);
+        border-radius: 30px;
+        width: 600px;
+        height: 240px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+		text-align: center;
+        margin: 50px;       
+    }
+   
+    .factura3{
+        background-color: rgba(7, 82, 73, 0.591);
+        border-radius: 10px;
+        width: 200%;
+        max-width: 900px;
+        height: 140px;
+        align-items: center;
+        padding-right: 50px; 
+    }
+    .alineacionfecha{
+        text-align: right;
+    }
+
+.alin1{
+    text-align: right;
+}
+
+.botonBlancoNormal{
+    border-radius: 10px;
+    background-color : rgba(7, 82, 73, 0.591);
+    color: azure;
+    font-style:normal;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.registro{
+    background-color: rgb(150, 213, 192);
+    border-radius: 30px;
+    width: 900px;
+    height: 500px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
+    margin: 35px;
+    font-size:large;
+}
+
+.tituloPrincipal {
+    color: #F0F36F;
+    font-style: italic;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+   
+}
+.subtituloFactura {
+    border-radius: 10px;
+    background-color : #117864;
+    color: azure;
+    font-style:normal;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 1000px;
+    margin-bottom: 20px;
+    padding-left: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    justify-content: left;
+    box-shadow: black 1px 1px 1px;
+}
+.factura2 {
+    border-radius: 10px;
+    background-color:#117864;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: black 1px 1px 1px;
+    font-style:normal;
+    font-size: 18px;
+}
+.formularioFactura {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+  }
+#cliente {
+    margin-right: 680px;
+}
+
+
+.formularioFactura:last-child {
+    text-align: right;
+    margin-top: 30px;
+  }
+
+#tablaFactura {
+    border-radius: 10px;
+    background-color:#117864;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 180px;
+    box-shadow: black 1px 1px 1px;
+    text-align: center;
+    font-style:normal;
+    font-size: 18px;
+}
+
+
+
+#tablaFactura th,
+#tablaFactura td {
+    padding: 0;
+  }
+
+#tablaFactura th {
+    background-color:azure;
+    align-items: center;
+}
+
+.claseFactura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:#117864;
+    box-shadow: black 1px 1px 1px;
+    text-align: center;
+    font-style:normal;
+    font-size: 18px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 180px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .formularioPrecio {
+    border-radius: 10px;
+    background-color:#117864;
+    margin-right: 102px;
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: black 1px 1px 1px;
+    text-align: right;
+    font-size: 20px;
+}
+.botonesFactura {
+    display: flex;
+    justify-content: center;
+
+}
+.botonVerdeNormalf {
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color :  rgb(31, 171, 124);
+    color: azure;
+    font-style:normal;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.botonRojoNormalf{
+    border-radius: 15px;
+    background-color :  rgb(188, 72, 72);
+    color: azure;
+    font-style:normal;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+
+
+
+
+/* El cuadro de mensaje se muestra cuando el usuario hace clic en el campo de contraseña */
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Agregue un color de texto verde y una marca de verificación cuando los requisitos sean correctos */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Agregue un color de texto rojo y una "x" cuando los requisitos no sean correctos */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
+  #message2 {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message2 p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Agregue un color de texto verde y una marca de verificación cuando los requisitos sean correctos */
+  .valid1 {
+    color: green;
+  }
+  
+  .valid1:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Agregue un color de texto rojo y una "x" cuando los requisitos no sean correctos */
+  .invalid1 {
+    color: red;
+  }
+  
+  .invalid1:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
